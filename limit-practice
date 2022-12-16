@@ -1,0 +1,12 @@
+# 1. Отсортируйте список компаний (таблица Company) по их названию в алфавитном порядке и выведите первые две записи.
+
+select * from company 
+order by name asc
+limit 2
+///
+
+# 2. Выведите начало (поле start_pair) и окончание (поле end_pair) второго и третьего занятия из таблицы Timepair.
+
+select start_pair, end_pair from Timepair
+limit 1, 2
+///
